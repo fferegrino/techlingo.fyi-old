@@ -1,4 +1,5 @@
 .idea
 .python-version
 .venv
+content/generated/
 output/
