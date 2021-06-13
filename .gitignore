@@ -1,5 +1,7 @@
+.DS_Store
 .idea
 .python-version
 .venv
+__pycache__/
 content/generated/
 output/
