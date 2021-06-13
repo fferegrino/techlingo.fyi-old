@@ -1,12 +1,42 @@
 [
   {
+    "term": "Build vs buy",
+    "text": "es un dilema común en las empresas; consiste en decidir entre crear una herramienta internamente o contratar los servicios de otra que ya tenga esa herramienta.",
+    "twitter": "io_exception"
+  },
+  {
+    "term": "Dogfooding",
+    "text": "es un término que se usa para indicar que una empresa usa los mismos productos que crea; los empleados de Microsoft usando Word es un ejemplo de \"dogfooding\"",
+    "twitter": "io_exception"
+  },
+  {
     "term": "fyi",
     "text": "es un acrónimo para \"para tu información\" en español; usado en emails para indicar que un correo es simplemente informativo y no requiere respuesta.",
     "twitter": "io_exception"
   },
   {
-    "term": "LGMT",
-    "text": "\"Looks Good To Me\" is a phrase commonly used to indicate that a code integration can go ahead. For example, in a merge request.",
+    "term": "fyi",
+    "text": "es un acrónimo para \"para tu información\" en español; usado en emails para indicar que un correo es simplemente informativo y no requiere respuesta",
+    "twitter": "io_exception"
+  },
+  {
+    "term": "lgtm",
+    "text": "\"Looks Good To Me\" es una frase comunmente usada para indicar que una integración de código puede llevarse a cabo. Por ejemplo, a través un pull request en GitHub.",
+    "twitter": "io_exception"
+  },
+  {
+    "term": "OOTB",
+    "text": "\"Out-Of-The-Box\" es una frase que se suele utilizar para funcionalidades incluídas por default en una biblioteca o lenguaje.",
+    "twitter": "io_exception"
+  },
+  {
+    "term": "PTO",
+    "text": "es un acrónimo para \"paid time off\", algo que en español conocemos simplemente como vacaciones pagadas",
+    "twitter": "io_exception"
+  },
+  {
+    "term": "¿Pull o Merge?",
+    "text": "Hablando de plataformas como GitHub o GitLab, tanto Pull Request como Merge Request se refieren a la misma acción: una petición de integrar el código de una rama a otra.",
     "twitter": "io_exception"
   },
   {
@@ -15,6 +45,11 @@
     "tags": [
       "web"
     ],
+    "twitter": "io_exception"
+  },
+  {
+    "term": "Vanilla",
+    "text": "es un término usado para referirse al software en su forma más pura. Por ejemplo, cuando alguien dice que hizo algo en \"vanilla JavaScript\", significa que no usó ningún framework.",
     "twitter": "io_exception"
   }
 ]
