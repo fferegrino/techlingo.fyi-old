@@ -1,5 +1,5 @@
 from pathlib import Path
-
+from datetime import datetime
 from slugify import slugify
 from tech.load import load_lingos
 
@@ -10,6 +10,8 @@ def convert():
     :return:
     """
     generated_content_path = Path("content", "generated")
+
+    generated_date = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     with open("tech/template.html") as readable:
         template = readable.read()
@@ -22,12 +24,14 @@ def convert():
 
         replacements = [
             ("TITLE", lingo.term),
+            ("INITIAL", term_slug[0]),
             ("BODY", lingo.text),
             ("AUTHOR", lingo.twitter),
             ("TAGS", ", ".join(lingo.tags)),
             ("CATEGORY", lingo.category),
             ("LANGUAGE", lingo.language),
             ("SLUG", str(path)),
+            ("DATE", generated_date),
          ]
 
         for tag, value in replacements:

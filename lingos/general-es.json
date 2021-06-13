@@ -12,6 +12,9 @@
   {
     "term": "Scaffolding",
     "text": "es un término usado para referirse al código inicial creado por una herramienta. Ejemplo:  yeoman es una herramienta de \"scaffolding\".",
+    "tags": [
+      "web"
+    ],
     "twitter": "io_exception"
   }
 ]
