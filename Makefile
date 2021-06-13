@@ -3,7 +3,7 @@ clean:
 
 build:
 	PYTHONPATH=. python tech/transform.py
-	pelican content
+	pelican content -t themes/simple
 
 fmt:
 	PYTHONPATH=. python tech/format.py
