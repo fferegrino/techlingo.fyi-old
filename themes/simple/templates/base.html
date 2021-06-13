@@ -11,8 +11,20 @@
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 
-<body id="index" class="home">
-{% block content %}
-{% endblock %}
+<body>
+
+<div id="main-content" class="container-fluid">
+    <div class="row justify-content-start">
+        <div class="col-md-3 col-12">
+        </div>
+        <div class="col-md-6 col-12">
+            {% block content %}
+            {% endblock %}
+        </div>
+        <div class="col-md-3 col-12">
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
