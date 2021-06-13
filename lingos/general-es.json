@@ -5,13 +5,13 @@
     "twitter": "io_exception"
   },
   {
-    "term": "Scaffolding",
-    "text": "es un término usado para referirse al código inicial creado por una herramienta. Ejemplo:  yeoman es una herramienta de \"scaffolding\".",
+    "term": "LGMT",
+    "text": "\"Looks Good To Me\" is a phrase commonly used to indicate that a code integration can go ahead. For example, in a merge request.",
     "twitter": "io_exception"
   },
   {
-    "term": "LGMT",
-    "text": "\"Looks Good To Me\" is a phrase commonly used to indicate that a code integration can go ahead. For example, in a merge request.",
+    "term": "Scaffolding",
+    "text": "es un término usado para referirse al código inicial creado por una herramienta. Ejemplo:  yeoman es una herramienta de \"scaffolding\".",
     "twitter": "io_exception"
   }
 ]
