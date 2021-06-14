@@ -7,24 +7,44 @@
     <title>TechLingo.fyi - Authors</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+            integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+            async></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container justify-content-between">
+        <div class="d-flex">
+            <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="/">
+              TechLingo
+            </a>
 
-<div id="main-content" class="container-fluid">
-    <div class="row justify-content-start">
-        <div class="col-md-3 col-12">
         </div>
-        <div class="col-md-6 col-12">
+
+        <ul class="navbar-nav flex-row">
+            <li class="nav-item me-3 me-lg-1">
+                <a class="nav-link" href="/account/logout">
+                    Contribute
+                </a>
+            </li>
+            <li class="nav-item me-3 me-lg-1">
+                <a class="nav-link" href="/account/login">
+                    <span><i data-feather="github"></i></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav><div class="container mt-3">
     <h1>Authors on TechLingo.fyi</h1>
     <ul>
         <li><a href="/author/io_exception.html">io_exception</a> (18)</li>
     </ul>
-        </div>
-        <div class="col-md-3 col-12">
-        </div>
-    </div>
 </div>
 
+<script>
+    feather.replace({'stroke-width': 2})
+</script>
 </body>
 </html>
