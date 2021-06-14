@@ -1,19 +1,31 @@
 {% extends "base.html" %}
 {% block content %}
 <section id="content">
-{% block content_title %}
-<h2>All articles</h2>
-{% endblock %}
 
-{% for letter, articles in articles_page.object_list|groupby('initial') %}
-    <h2>{{letter}}</h2>
-    {% for article in articles %}
-        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-    {% endfor %}
-{% endfor %}
+    <div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 690px;">
 
-{% if articles_page.has_other_pages() %}
-    {% include 'pagination.html' %}
-{% endif %}
+        {% for letter, articles in articles_page.object_list|groupby('initial') %}
+        <div class="col-sm-6 col-lg-4 mb-4">
+            <div class="card">
+                <div class="card-body p-0 m-0">
+                    <h5 class="card-title visually-hidden">{{letter}}</h5>
+                    <ul class="list-group list-group-flush">
+                        {% for article in articles %}
+                        <li class="list-group-item">
+                            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" class="link-dark"
+                               title="Permalink to {{ article.title|striptags }}">{{
+                                article.title }}</a> {{ article.language }}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+        {% if articles_page.has_other_pages() %}
+        {% include 'pagination.html' %}
+        {% endif %}
+    </div>
 </section><!-- /#content -->
 {% endblock content %}
