@@ -24,11 +24,6 @@
     "id": "lgtm"
   },
   {
-    "term": "tl;dr",
-    "text": "Too long, didn't read",
-    "twitter": "fernandzad"
-  },
-  {
     "term": "OOTB",
     "text": "\"Out-Of-The-Box\" is a phrase commonly used to describe the default features included in a library or language.",
     "twitter": "io_exception",
@@ -61,7 +56,7 @@
   {
     "term": "tl;dr",
     "text": "an acronym for \"too long; didn't read\" commonly used to give a short summary of a larger piece of text",
-    "twitter": "io_exception",
+    "twitter": "fernandzad",
     "id": "tldr"
   },
   {
