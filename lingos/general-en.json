@@ -30,6 +30,11 @@
     "twitter": "io_exception"
   },
   {
+    "term": "tl;dr",
+    "text": "Too long, didn't read",
+    "twitter": "fernandzad"
+  },
+  {
     "term": "OOTB",
     "text": "\"Out-Of-The-Box\" is a phrase commonly used to describe the default features included in a library or language.",
     "twitter": "io_exception"
