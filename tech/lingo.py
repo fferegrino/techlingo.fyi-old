@@ -4,7 +4,7 @@ from typing import List, Optional
 
 @dataclass
 class Lingo:
-    id:str
+    id: str
     term: str
     text: str
     category: str
