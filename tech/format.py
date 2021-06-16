@@ -10,11 +10,14 @@ from tech.load import load_lingos
 def format():
     files: Dict[str, List[Lingo]] = defaultdict(list)
     for lingo in load_lingos():
-
         files[f"{lingo.category}-{lingo.language}"].append(lingo)
     lingos = Path("lingos")
     for t, lists in files.items():
-        jsons = [ll.asdict() for ll in sorted(lists, key=lambda lng: slugify(lng.term))]
+        jsons = []
+        for _lingo in sorted(lists, key=lambda lng: slugify(lng.term)):
+            __lingo =  _lingo.asdict()
+            __lingo["id"] = __lingo.get("id", slugify(_lingo.term))
+            jsons.append(__lingo)
         with open(lingos /f"{t}.json", "wt", encoding="utf8") as w:
             json.dump(jsons, w, indent=2,ensure_ascii=False)
 

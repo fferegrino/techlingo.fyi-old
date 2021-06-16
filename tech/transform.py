@@ -3,6 +3,10 @@ from datetime import datetime
 from slugify import slugify
 from tech.load import load_lingos
 
+languages = {
+    "es": "Spanish",
+    "en": "English"
+}
 
 def convert():
     """
@@ -24,12 +28,13 @@ def convert():
 
         replacements = [
             ("TITLE", lingo.term),
-            ("INITIAL", term_slug[0]),
+            ("INITIAL", lingo.id[0]),
+            ("ID", lingo.id),
             ("BODY", lingo.text),
             ("AUTHOR", lingo.twitter),
             ("TAGS", ", ".join(lingo.tags)),
             ("CATEGORY", lingo.category),
-            ("LANGUAGE", lingo.language),
+            ("LANGUAGE", languages[lingo.language]),
             ("SLUG", str(path)),
             ("DATE", generated_date),
          ]
