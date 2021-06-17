@@ -39,3 +39,7 @@ ARTICLE_ORDER_BY = 'reversed-title'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+from urllib.parse import quote_plus
+
+JINJA_FILTERS = {'quote_plus':quote_plus}
