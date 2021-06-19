@@ -1,7 +1,7 @@
 from pathlib import Path
 from datetime import datetime
 from slugify import slugify
-from tech.load import load_lingos
+from tech.load import load_lingos, load_base_lingos
 
 languages = {
     "es": "Spanish",
@@ -20,13 +20,18 @@ def convert():
     with open("tech/template.html") as readable:
         template = readable.read()
 
+    base_lingos = {
+        ling.id:ling.term for ling in
+        load_base_lingos()
+    }
+
     for lingo in load_lingos():
         term_slug = slugify(lingo.term)
         path = Path(lingo.category, term_slug, lingo.language)
 
         end_content = str(template)
-
         replacements = [
+            ("NON_LOCALISED_TITLE",base_lingos[lingo.id]),
             ("TITLE", lingo.term),
             ("INITIAL", lingo.id[0]),
             ("ID", lingo.id),

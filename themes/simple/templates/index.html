@@ -12,7 +12,7 @@
                     <ul class="list-group list-group-flush">
                         {% for term_id, articles in articles|groupby('id') %}
                         <li class="list-group-item">
-                            <b class="term">{{ articles[0].title }}</b>
+                            <b class="term">{{ articles[0].non_localised_title }}</b>
                             {% for article in articles %}
                             <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" class="link-dark text-lowercase"
                                title="Permalink to {{ article.title|striptags }} in {{ article.language }}">{{
