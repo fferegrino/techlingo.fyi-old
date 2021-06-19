@@ -2,10 +2,12 @@ import json
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List
+
 from slugify import slugify
 
 from tech.lingo import Lingo
 from tech.load import load_lingos
+
 
 def format():
     files: Dict[str, List[Lingo]] = defaultdict(list)
@@ -15,11 +17,12 @@ def format():
     for t, lists in files.items():
         jsons = []
         for _lingo in sorted(lists, key=lambda lng: slugify(lng.term)):
-            __lingo =  _lingo.asdict()
+            __lingo = _lingo.asdict()
             __lingo["id"] = __lingo.get("id", slugify(_lingo.term))
             jsons.append(__lingo)
-        with open(lingos /f"{t}.json", "wt", encoding="utf8") as w:
-            json.dump(jsons, w, indent=2,ensure_ascii=False)
+        with open(lingos / f"{t}.json", "wt", encoding="utf8") as w:
+            json.dump(jsons, w, indent=2, ensure_ascii=False)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     format()

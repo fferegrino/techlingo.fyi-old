@@ -1,2 +1,4 @@
+black
+isort
 pelican
 python-slugify

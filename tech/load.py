@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from typing import Generator, Any
+from typing import Any, Generator
 
 from tech.lingo import Lingo
 
@@ -21,6 +21,7 @@ def load_base_lingos() -> Generator[Lingo, Any, None]:
                     **lingo_json,
                 )
                 yield lingo
+
 
 def load_lingos() -> Generator[Lingo, Any, None]:
     lingos_path = Path("lingos")
