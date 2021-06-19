@@ -3,63 +3,63 @@
     "id": "build-vs-buy",
     "term": "Build vs buy",
     "text": "es un dilema común en las empresas; consiste en decidir entre crear una herramienta internamente o contratar los servicios de otra que ya tenga esa herramienta.",
-    "twitter": "io_exception"
+    "author": "fferegrino"
   },
   {
     "id": "dogfooding",
     "term": "Dogfooding",
     "text": "es un término que se usa para indicar que una empresa usa los mismos productos que crea; los empleados de Microsoft usando Word es un ejemplo de \"dogfooding\"",
-    "twitter": "io_exception"
+    "author": "fferegrino"
   },
   {
     "id": "fyi",
     "term": "fyi",
     "text": "es un acrónimo para \"para tu información\" en español; usado en emails para indicar que un correo es simplemente informativo y no requiere respuesta.",
-    "twitter": "io_exception"
+    "author": "fferegrino"
   },
   {
     "id": "lgtm",
     "term": "lgtm",
     "text": "\"Looks Good To Me\" es una frase comunmente usada para indicar que una integración de código puede llevarse a cabo. Por ejemplo, a través un pull request en GitHub.",
-    "twitter": "io_exception"
+    "author": "fferegrino"
   },
   {
     "id": "ootb",
     "term": "OOTB",
     "text": "\"Out-Of-The-Box\" es una frase que se suele utilizar para funcionalidades incluídas por default en una biblioteca o lenguaje.",
-    "twitter": "io_exception"
+    "author": "fferegrino"
   },
   {
     "id": "pto",
     "term": "PTO",
     "text": "es un acrónimo para \"paid time off\", algo que en español conocemos simplemente como vacaciones pagadas",
-    "twitter": "io_exception"
+    "author": "fferegrino"
   },
   {
     "id": "pull-or-merge",
     "term": "¿Pull o Merge?",
     "text": "Hablando de plataformas como GitHub o GitLab, tanto Pull Request como Merge Request se refieren a la misma acción: una petición de integrar el código de una rama a otra.",
-    "twitter": "io_exception"
+    "author": "fferegrino"
   },
   {
     "id": "scaffolding",
     "term": "Scaffolding",
     "text": "es un término usado para referirse al código inicial creado por una herramienta. Ejemplo:  yeoman es una herramienta de \"scaffolding\".",
+    "author": "fferegrino",
     "tags": [
       "web"
-    ],
-    "twitter": "io_exception"
+    ]
   },
   {
     "id": "tldr",
     "term": "tl;dr",
     "text": "un acrónimo para \"muy largo; no lo leí\" usado comúnmente para especificar un resumen de un texto más largo",
-    "twitter": "io_exception"
+    "author": "fferegrino"
   },
   {
     "id": "vanilla",
     "term": "Vanilla",
     "text": "es un término usado para referirse al software en su forma más pura. Por ejemplo, cuando alguien dice que hizo algo en \"vanilla JavaScript\", significa que no usó ningún framework.",
-    "twitter": "io_exception"
+    "author": "fferegrino"
   }
 ]

@@ -39,15 +39,13 @@
 {% block content %}
 <section id="content" class="body">
     <div class="container">
-        <div class="p-2 mt-2 mb-4 bg-light rounded-3">
+        <div class="p-4 mt-2 mb-4 bg-light rounded-3">
             <div class="container-fluid py-2">
                 <h1 class="display-4 fw-bold">{{ article.title }}</h1>
                 <p class="col-8 col-md-12 fs-2">{{ article.content }}</p>
-                {% if article.authors %}
+                {% if article.author %}
                 <p class="col-md-10 fs-5">
-                    {% for author in article.authors %}
-                    <a class="text-muted" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-                    {% endfor %}
+                    <a class="text-muted" href="{{ article.author_url }}">{{ article.author }}</a>
                 </p>
                 {% endif %}
 

@@ -5,3 +5,4 @@
 __pycache__/
 content/generated/
 output/
+venv

@@ -3,7 +3,7 @@ from pathlib import Path
 
 from slugify import slugify
 
-from tech.load import load_base_lingos, load_lingos
+from tech.load import load_authors, load_base_lingos, load_lingos
 
 languages = {"es": "Spanish", "en": "English"}
 
@@ -17,15 +17,17 @@ def convert():
 
     generated_date = datetime.now().strftime("%Y-%m-%d %H:%M")
 
-    with open("tech/template.html") as readable:
+    with open("tech/article_template.html") as readable:
         template = readable.read()
+
+    authors = load_authors()
 
     base_lingos = {ling.id: ling.term for ling in load_base_lingos()}
 
     for lingo in load_lingos():
         term_slug = slugify(lingo.term)
         path = Path(lingo.category, term_slug, lingo.language)
-
+        author = authors[lingo.author]
         end_content = str(template)
         replacements = [
             ("NON_LOCALISED_TITLE", base_lingos[lingo.id]),
@@ -34,7 +36,8 @@ def convert():
             ("ID", lingo.id),
             ("ESCAPED_CONTENT", lingo.text.replace('"', "&amp;quot;")),
             ("CONTENT", lingo.text.replace('"', "&quot;")),
-            ("AUTHOR", lingo.twitter),
+            ("AUTHOR_URL", author.main_link),
+            ("AUTHOR", author.display_name),
             ("TAGS", ", ".join(lingo.tags)),
             ("CATEGORY", lingo.category),
             ("LANGUAGE", languages[lingo.language]),

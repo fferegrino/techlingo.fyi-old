@@ -9,8 +9,8 @@ class Lingo:
     text: str
     category: str
     language: str
+    author: str
     tags: List[str] = field(default_factory=list)
-    twitter: Optional[str] = None
 
     def asdict(self):
         inner_dict = asdict(self)
