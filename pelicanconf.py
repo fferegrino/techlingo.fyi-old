@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-
+from pathlib import Path
 AUTHOR = 'antonio.feregrino@gmail.com'
 SITENAME = 'TechLingo.fyi'
 SITEURL = ''
@@ -29,8 +29,11 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 # DEFAULT_PAGINATION = 10
-STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images', 'extra']
+EXTRA_PATH_METADATA = {
+    f'extra/{path.name}': {'path': path.name}
+    for path in Path("content/extra").glob("*")
+}
 
 ARTICLE_URL = '{slug}'
 ARTICLE_SAVE_AS = '{slug}/index.html'
