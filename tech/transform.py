@@ -34,8 +34,7 @@ def convert():
             ("TITLE", lingo.term),
             ("INITIAL", lingo.id[0]),
             ("ID", lingo.id),
-            ("ESCAPED_CONTENT", lingo.text.replace('"', "&amp;quot;")),
-            ("CONTENT", lingo.text.replace('"', "&quot;")),
+            ("CONTENT", lingo.text),
             ("AUTHOR_URL", author.main_link),
             ("AUTHOR", author.display_name),
             ("TAGS", ", ".join(lingo.tags)),
@@ -44,7 +43,6 @@ def convert():
             ("SLUG", str(path)),
             ("DATE", generated_date),
         ]
-
         for tag, value in replacements:
             end_content = end_content.replace(tag, value)
 
