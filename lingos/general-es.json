@@ -61,5 +61,17 @@
     "term": "Vanilla",
     "text": "es un término usado para referirse al software en su forma más pura. Por ejemplo, cuando alguien dice que hizo algo en \"vanilla JavaScript\", significa que no usó ningún framework.",
     "author": "fferegrino"
+  },
+  {
+    "term": "FANG",
+    "text": "El término \"FANG\" hace referencia al nombre de estas cuatro populares empresas tecnológicas estadounidenses: Facebook, Amazon, Netflix y Google",
+    "author": "israteneda",
+    "id": "fang"
+  },
+  {
+    "term": "OOTO, OOO",
+    "text": "OOTO es un acrónimo que significa \"Fuera de la Oficina\".",
+    "author": "israteneda",
+    "id": "ooto-ooo"
   }
 ]
