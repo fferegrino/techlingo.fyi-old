@@ -1,4 +1,4 @@
-name: Publish pelican site
+name: Checks on PR
 
 on:
   pull_request:
