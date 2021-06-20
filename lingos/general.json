@@ -1,80 +1,80 @@
 [
   {
+    "id": "build-vs-buy",
     "term": "Build vs buy",
     "text": "is a common dilemma in the enterprise; it comes when deciding between developing a tool internally or buying it from someone else.",
-    "author": "fferegrino",
-    "id": "build-vs-buy"
+    "author": "fferegrino"
   },
   {
+    "id": "dogfooding",
     "term": "Dogfooding",
     "text": "a term used when a company uses the same products they produce; Microsoft employees using Word is an example of \"dogfooding\"",
-    "author": "fferegrino",
-    "id": "dogfooding"
+    "author": "fferegrino"
   },
   {
-    "term": "fyi",
-    "text": "it is an acronym for \"for your information\"; used in email to tell the reader that a given email is ust informative and does not need to be replied to.",
-    "author": "fferegrino",
-    "id": "fyi"
-  },
-  {
-    "term": "lgtm",
-    "text": "\"Looks Good To Me\" is a phrase commonly used to indicate that a code integration can go ahead. For example, in a merge request.",
-    "author": "fferegrino",
-    "id": "lgtm"
-  },
-  {
-    "term": "OOTB",
-    "text": "\"Out-Of-The-Box\" is a phrase commonly used to describe the default features included in a library or language.",
-    "author": "fferegrino",
-    "id": "ootb"
-  },
-  {
-    "term": "PTO",
-    "text": "it is just an acronym for \"paid time off\"",
-    "author": "fferegrino",
-    "id": "pto"
-  },
-  {
-    "term": "Pull or Merge?",
-    "text": "When talking about platforms like GitHub or GitLab, both Pull Request and Merge Request refer to the same action: a request to integrate code from one branch o another.",
-    "author": "fferegrino",
-    "id": "pull-or-merge"
-  },
-  {
-    "term": "Scaffolding",
-    "text": "is a term used to refer to the code created by code generation tools that help us when creating a new app. For example, yeoman is a scaffolding generator tool.",
-    "author": "fferegrino",
-    "id": "scaffolding"
-  },
-  {
-    "term": "Scaffolding",
-    "text": "is a term used to refer to the code created by code generation tools that help us when creating a new app. For example, yeoman is a scaffolding generator tool.",
-    "author": "fferegrino",
-    "id": "scaffolding"
-  },
-  {
-    "term": "tl;dr",
-    "text": "an acronym for \"too long; didn't read\" commonly used to give a short summary of a larger piece of text",
-    "author": "fernandzad",
-    "id": "tldr"
-  },
-  {
-    "term": "Vanilla",
-    "text": "is a term used to refer to software in its purest form. For example, when someone says they did something in \"vanilla JavaScript\", it means they didn't use any framework.",
-    "author": "fferegrino",
-    "id": "vanilla"
-  },
-  {
+    "id": "fang",
     "term": "FANG",
     "text": "The term \"FANG\" refers to the name of these four popular American technology companies: Facebook, Amazon, Netflix, and Google",
-    "author": "israteneda",
-    "id": "fang"
+    "author": "israteneda"
   },
   {
+    "id": "fyi",
+    "term": "fyi",
+    "text": "it is an acronym for \"for your information\"; used in email to tell the reader that a given email is ust informative and does not need to be replied to.",
+    "author": "fferegrino"
+  },
+  {
+    "id": "lgtm",
+    "term": "lgtm",
+    "text": "\"Looks Good To Me\" is a phrase commonly used to indicate that a code integration can go ahead. For example, in a merge request.",
+    "author": "fferegrino"
+  },
+  {
+    "id": "ootb",
+    "term": "OOTB",
+    "text": "\"Out-Of-The-Box\" is a phrase commonly used to describe the default features included in a library or language.",
+    "author": "fferegrino"
+  },
+  {
+    "id": "ooto-ooo",
     "term": "OOTO, OOO",
     "text": "OOTO is an acronym that means “Out of the Office.”",
-    "author": "israteneda",
-    "id": "ooto-ooo"
+    "author": "israteneda"
+  },
+  {
+    "id": "pto",
+    "term": "PTO",
+    "text": "it is just an acronym for \"paid time off\"",
+    "author": "fferegrino"
+  },
+  {
+    "id": "pull-or-merge",
+    "term": "Pull or Merge?",
+    "text": "When talking about platforms like GitHub or GitLab, both Pull Request and Merge Request refer to the same action: a request to integrate code from one branch o another.",
+    "author": "fferegrino"
+  },
+  {
+    "id": "scaffolding",
+    "term": "Scaffolding",
+    "text": "is a term used to refer to the code created by code generation tools that help us when creating a new app. For example, yeoman is a scaffolding generator tool.",
+    "author": "fferegrino"
+  },
+  {
+    "id": "scaffolding",
+    "term": "Scaffolding",
+    "text": "is a term used to refer to the code created by code generation tools that help us when creating a new app. For example, yeoman is a scaffolding generator tool.",
+    "author": "fferegrino"
+  },
+  {
+    "id": "tldr",
+    "term": "tl;dr",
+    "text": "an acronym for \"too long; didn't read\" commonly used to give a short summary of a larger piece of text",
+    "author": "fernandzad"
+  },
+  {
+    "id": "vanilla",
+    "term": "Vanilla",
+    "text": "is a term used to refer to software in its purest form. For example, when someone says they did something in \"vanilla JavaScript\", it means they didn't use any framework.",
+    "author": "fferegrino"
   }
 ]

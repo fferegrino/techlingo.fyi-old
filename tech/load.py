@@ -34,8 +34,7 @@ def load_base_lingos() -> Generator[Lingo, Any, None]:
                 yield lingo
 
 
-def load_lingos() -> Generator[Lingo, Any, None]:
-    yield from load_base_lingos()
+def load_extra_lingos() -> Generator[Lingo, Any, None]:
     for file in lingos_path.glob("*-*.json"):
         category, _, language = file.stem.partition("-")
 
@@ -48,3 +47,8 @@ def load_lingos() -> Generator[Lingo, Any, None]:
                     **lingo_json,
                 )
                 yield lingo
+
+
+def load_lingos() -> Generator[Lingo, Any, None]:
+    yield from load_base_lingos()
+    yield from load_extra_lingos()
