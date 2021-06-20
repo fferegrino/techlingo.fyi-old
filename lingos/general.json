@@ -76,5 +76,11 @@
     "term": "Vanilla",
     "text": "is a term used to refer to software in its purest form. For example, when someone says they did something in \"vanilla JavaScript\", it means they didn't use any framework.",
     "author": "fferegrino"
+  },
+  {
+    "id": "ymmv",
+    "term": "YMMV",
+    "text": "an acronym for \"your mileage may vary\", used to signal that you understand people may have a different experience to yours and what you are saying is just your opinion",
+    "author": "fferegrino"
   }
 ]
