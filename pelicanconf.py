@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from pathlib import Path
 
-AUTHOR = "antonio.feregrino@gmail.com"
+AUTHOR = "Antonio Feregrino"
 SITENAME = "TechLingo.fyi"
 SITEURL = ""
 
