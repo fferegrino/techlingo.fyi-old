@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <section id="content">
-
+    <h1>All tech lingos</h1>
     <div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 690px;">
 
         {% for letter, articles in articles_page.object_list|groupby('initial') %}
@@ -12,9 +12,9 @@
                     <ul class="list-group list-group-flush">
                         {% for term_id, articles in articles|groupby('id') %}
                         <li class="list-group-item">
-                            <b class="term">{{ articles[0].non_localised_title }}</b>
+                            <span class="fs-5"><b class="term">{{letter}}</b>{{ articles[0].non_localised_title[1:].lower() }}</span>
                             {% for article in articles %}
-                            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" class="link-dark text-lowercase"
+                            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" class="link-dark text-lowercase fs-6"
                                title="Permalink to {{ article.title|striptags }} in {{ article.language }}">{{
                                 article.language }}</a>
                             {% endfor %}
