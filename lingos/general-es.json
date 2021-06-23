@@ -1,5 +1,11 @@
 [
   {
+    "id": "afk",
+    "term": "AFK",
+    "text": "una abreviación para \"away from keyboard\" (\"lejos del teclado\"), usada para hacerle saber a la gente que no vas a estar disponible durante un tiempo.",
+    "author": "fferegrino"
+  },
+  {
     "id": "build-vs-buy",
     "term": "Build vs buy",
     "text": "es un dilema común en las empresas; consiste en decidir entre crear una herramienta internamente o contratar los servicios de otra que ya tenga esa herramienta.",
