@@ -5,7 +5,7 @@ from typing import Dict, List
 
 from slugify import slugify
 
-from tech.lingo import Lingo
+from tech.entities.lingo import Lingo
 from tech.load import load_base_lingos, load_extra_lingos
 
 

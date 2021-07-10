@@ -2,8 +2,11 @@ clean:
 	rm -rf output content/generated
 
 build:
-	PYTHONPATH=. python tech/transform.py
+	PYTHONPATH=. python -m tech convert
 	pelican content -t themes/simple -s publishconf.py
+
+tweet:
+	PYTHONPATH=. python -m tech tweet
 
 lint:
 	black . --check

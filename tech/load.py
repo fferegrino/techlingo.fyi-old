@@ -2,8 +2,8 @@ import json
 from pathlib import Path
 from typing import Any, Dict, Generator
 
-from tech.author import Author
-from tech.lingo import Lingo
+from tech.entities.author import Author
+from tech.entities.lingo import Lingo
 
 lingos_path = Path("lingos")
 
