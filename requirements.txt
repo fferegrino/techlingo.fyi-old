@@ -1,4 +1,6 @@
 black
+click
 isort
 pelican
 python-slugify
+tweepy
