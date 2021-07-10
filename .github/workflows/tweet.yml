@@ -2,7 +2,7 @@ name: Tweet to @TechLingoFYI
 
 on:
   schedule:
-    - cron:  '10 14 * * 1,3,5'
+    - cron:  '15 14 * * 1,3,5'
 
 jobs:
   build:
