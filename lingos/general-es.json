@@ -6,6 +6,18 @@
     "author": "fferegrino"
   },
   {
+    "id": "bau",
+    "term": "BAU",
+    "text": "un acrónimo para \"business as usual\", se usa para decir que todo transcurre con normalidad y cuando algo va mal puedes decir \"esto no es BAU\"",
+    "author": "fferegrino"
+  },
+  {
+    "id": "brb",
+    "term": "BRB",
+    "text": "un acrónimo para \"be right back\", se usa cuando tienes que salir de una junta o conversación pero regresarás pronto",
+    "author": "fferegrino"
+  },
+  {
     "id": "build-vs-buy",
     "term": "Build vs buy",
     "text": "es un dilema común en las empresas; consiste en decidir entre crear una herramienta internamente o contratar los servicios de otra que ya tenga esa herramienta.",
