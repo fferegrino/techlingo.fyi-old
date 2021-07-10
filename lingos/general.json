@@ -6,6 +6,18 @@
     "author": "fferegrino"
   },
   {
+    "id": "bau",
+    "term": "BAU",
+    "text": "an acronym for \"business as usual\", used to say that an event is happening as it was meant to happen; when something is wrong you could say \"this is not BAU\"",
+    "author": "fferegrino"
+  },
+  {
+    "id": "brb",
+    "term": "BRB",
+    "text": "an acronym for \"be right back\", used to say you are leaving a conversation or meeting but will come back soon",
+    "author": "fferegrino"
+  },
+  {
     "id": "build-vs-buy",
     "term": "Build vs buy",
     "text": "is a common dilemma in the enterprise; it comes when deciding between developing a tool internally or buying it from someone else.",
