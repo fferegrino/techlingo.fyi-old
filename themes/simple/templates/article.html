@@ -8,13 +8,13 @@
 <meta name="twitter:title" content={{ article.title|striptags|tojson }}>
 <meta name="twitter:site" content="@io_exception">
 <meta name="twitter:description" content="{{ article.content|escape }}">
-<meta name="twitter:image" content="https://techlingo-og-image-2.vercel.app/{{ article.title|striptags }}.png?text={{ article.content|striptags|quote_plus }}&theme=light&fontSize=100px">
+<meta name="twitter:image" content="https://techlingo-og-image-2.vercel.app/{{ article.title|striptags|just_quote }}.png?text={{ article.content|striptags|quote_plus }}&theme=light&fontSize=100px">
 <meta name="twitter:image:alt" content={{ article.content|escape }}>
 
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ article.title|striptags }}">
 <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}">
-<meta property="og:image" content="https://techlingo-og-image-2.vercel.app/{{ article.title|striptags }}.png?text={{ article.content|striptags|quote_plus }}&theme=light&fontSize=100px">
+<meta property="og:image" content="https://techlingo-og-image-2.vercel.app/{{ article.title|striptags|just_quote }}.png?text={{ article.content|striptags|quote_plus }}&theme=light&fontSize=100px">
 <meta property="og:description" content="{{ article.content|escape }}">
 {% endblock %}
 
