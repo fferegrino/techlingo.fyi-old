@@ -60,6 +60,12 @@
     "author": "israteneda"
   },
   {
+    "id": "poc",
+    "term": "POC",
+    "text": "an acronym for \"proof of concept\", used to refer to an experiment that aims to demonstrate that a design, technology or business proposal is feasible",
+    "author": "fferegrino"
+  },
+  {
     "id": "pto",
     "term": "PTO",
     "text": "it is just an acronym for \"paid time off\"",
