@@ -42,6 +42,12 @@
     "author": "fferegrino"
   },
   {
+    "id": "legacy",
+    "term": "Legacy",
+    "text": "Sistema, tecnología o aplicación antiguo o desactualizado que se sigue utilizando dentro de una organización.",
+    "author": "kinduff"
+  },
+  {
     "id": "lgtm",
     "term": "lgtm",
     "text": "\"Looks Good To Me\" es una frase comunmente usada para indicar que una integración de código puede llevarse a cabo. Por ejemplo, a través un pull request en GitHub.",

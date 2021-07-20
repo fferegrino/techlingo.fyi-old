@@ -42,6 +42,12 @@
     "author": "fferegrino"
   },
   {
+    "id": "legacy",
+    "term": "Legacy",
+    "text": "A system, technology or application that is considered obsolete or old but is still used within an organisation",
+    "author": "fferegrino"
+  },
+  {
     "id": "lgtm",
     "term": "lgtm",
     "text": "\"Looks Good To Me\" is a phrase commonly used to indicate that a code integration can go ahead. For example, in a merge request.",
