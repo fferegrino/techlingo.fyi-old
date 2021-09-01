@@ -6,6 +6,12 @@
     "author": "fferegrino"
   },
   {
+    "id": "backlog",
+    "term": "backlog",
+    "text": "en la metodología ágil, usamos la palabra \"backlog\" para referirnos a una lista de trabajo pendiente, usualmente ordenado por prioridad",
+    "author": "fferegrino"
+  },
+  {
     "id": "bau",
     "term": "BAU",
     "text": "un acrónimo para \"business as usual\", se usa para decir que todo transcurre con normalidad y cuando algo va mal puedes decir \"esto no es BAU\"",
@@ -91,6 +97,12 @@
     "tags": [
       "web"
     ]
+  },
+  {
+    "id": "sprint",
+    "term": "sprint",
+    "text": "es un intervalo fijo de tiempo, de entre una semana y un mes, durante el cual se cumple con crear una parte de un producto de software",
+    "author": "fferegrino"
   },
   {
     "id": "tldr",
