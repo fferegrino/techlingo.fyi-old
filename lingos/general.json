@@ -6,6 +6,12 @@
     "author": "fferegrino"
   },
   {
+    "id": "batteries-included",
+    "term": "Batteries Included",
+    "text": "is a common slang to state that a product or application comes includes everything you need to use it from the get go",
+    "author": "fferegrino"
+  },
+  {
     "id": "bau",
     "term": "BAU",
     "text": "an acronym for \"business as usual\", used to say that an event is happening as it was meant to happen; when something is wrong you could say \"this is not BAU\"",
@@ -21,6 +27,12 @@
     "id": "build-vs-buy",
     "term": "Build vs buy",
     "text": "is a common dilemma in the enterprise; it comes when deciding between developing a tool internally or buying it from someone else.",
+    "author": "fferegrino"
+  },
+  {
+    "id": "curl",
+    "term": "cURL",
+    "text": "it is a library and a command line tool to transfer data using different network protocols",
     "author": "fferegrino"
   },
   {
@@ -51,6 +63,12 @@
     "id": "lgtm",
     "term": "lgtm",
     "text": "\"Looks Good To Me\" is a phrase commonly used to indicate that a code integration can go ahead. For example, in a merge request.",
+    "author": "fferegrino"
+  },
+  {
+    "id": "lossy",
+    "term": "Lossy",
+    "text": "this is a word used to describe compression algorithms where information is discarded in order to reduce the size of said information",
     "author": "fferegrino"
   },
   {
@@ -105,6 +123,12 @@
     "id": "vanilla",
     "term": "Vanilla",
     "text": "is a term used to refer to software in its purest form. For example, when someone says they did something in \"vanilla JavaScript\", it means they didn't use any framework.",
+    "author": "fferegrino"
+  },
+  {
+    "id": "wget",
+    "term": "wget",
+    "text": "it is a command line application that retrieves data from web servers, it supports downloading from FTP, HTTP and HTTPS",
     "author": "fferegrino"
   },
   {

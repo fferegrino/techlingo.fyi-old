@@ -6,6 +6,12 @@
     "author": "fferegrino"
   },
   {
+    "id": "batteries-included",
+    "term": "Batteries Included",
+    "text": "es una frase usada para indicar que un producto o aplicación incluye todo para ser usado plenamente sin instalarle nada más",
+    "author": "fferegrino"
+  },
+  {
     "id": "bau",
     "term": "BAU",
     "text": "un acrónimo para \"business as usual\", se usa para decir que todo transcurre con normalidad y cuando algo va mal puedes decir \"esto no es BAU\"",
@@ -21,6 +27,12 @@
     "id": "build-vs-buy",
     "term": "Build vs buy",
     "text": "es un dilema común en las empresas; consiste en decidir entre crear una herramienta internamente o contratar los servicios de otra que ya tenga esa herramienta.",
+    "author": "fferegrino"
+  },
+  {
+    "id": "curl",
+    "term": "cURL",
+    "text": "es una biblioteca y una herramienta de consola para transferir información usando diversos protocolos de red",
     "author": "fferegrino"
   },
   {
@@ -51,6 +63,12 @@
     "id": "lgtm",
     "term": "lgtm",
     "text": "\"Looks Good To Me\" es una frase comunmente usada para indicar que una integración de código puede llevarse a cabo. Por ejemplo, a través un pull request en GitHub.",
+    "author": "fferegrino"
+  },
+  {
+    "id": "lossy",
+    "term": "Lossy",
+    "text": "esta palabra es usada para describir algoritmos de compresión que descartan partes de esta con el fin de comprimirla",
     "author": "fferegrino"
   },
   {
@@ -102,6 +120,12 @@
     "id": "vanilla",
     "term": "Vanilla",
     "text": "es un término usado para referirse al software en su forma más pura. Por ejemplo, cuando alguien dice que hizo algo en \"vanilla JavaScript\", significa que no usó ningún framework.",
+    "author": "fferegrino"
+  },
+  {
+    "id": "wget",
+    "term": "wget",
+    "text": "es una herramienta de consola que podemos usar para descargar información desde servidores web usando los protocolos FTP, HTTP o HTTPS",
     "author": "fferegrino"
   },
   {
