@@ -6,15 +6,15 @@
     "author": "fferegrino"
   },
   {
-    "id": "batteries-included",
-    "term": "Batteries Included",
-    "text": "es una frase usada para indicar que un producto o aplicación incluye todo para ser usado plenamente sin instalarle nada más",
-    "author": "fferegrino"
-  },
-  {
     "id": "backlog",
     "term": "backlog",
     "text": "en la metodología ágil, usamos la palabra \"backlog\" para referirnos a una lista de trabajo pendiente, usualmente ordenado por prioridad",
+    "author": "fferegrino"
+  },
+  {
+    "id": "batteries-included",
+    "term": "Batteries Included",
+    "text": "es una frase usada para indicar que un producto o aplicación incluye todo para ser usado plenamente sin instalarle nada más",
     "author": "fferegrino"
   },
   {
