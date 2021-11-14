@@ -36,6 +36,12 @@
     "author": "fferegrino"
   },
   {
+    "id": "cya",
+    "term": "CYA",
+    "text": "un acrónimo de \"cover your ass\", que es una actividad llevada a cabo por alguien para protegerse de las repercusiones de sus acciones",
+    "author": "fferegrino"
+  },
+  {
     "id": "dogfooding",
     "term": "Dogfooding",
     "text": "es un término que se usa para indicar que una empresa usa los mismos productos que crea; los empleados de Microsoft usando Word es un ejemplo de \"dogfooding\"",
