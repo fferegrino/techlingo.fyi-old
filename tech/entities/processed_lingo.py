@@ -16,6 +16,8 @@ class ProcessedLingo:
     author: str
     author_url: str
     category: str
+    acronym: str
+    abbreviation: str
     language: str
     path: Path
     tags: List[str]
@@ -23,6 +25,18 @@ class ProcessedLingo:
     @property
     def initial(self) -> str:
         return self.identifier[0]
+
+    @property
+    def decorated_acronym(self) -> str:
+        if self.acronym:
+            return "".join(
+                (f"<b>{char}</b>" if char.isupper() else char for char in self.acronym)
+            )
+        return ""
+
+    @property
+    def abbr(self) -> str:
+        return self.abbreviation or ""
 
     @property
     def slug(self) -> str:
@@ -38,6 +52,8 @@ class ProcessedLingo:
             author=author.display_name,
             author_url=author.main_link,
             category=lingo.category,
+            abbreviation=lingo.abbreviation,
+            acronym=lingo.acronym,
             language=languages[lingo.language],
             path=path,
             tags=lingo.tags or [],
