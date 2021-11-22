@@ -10,6 +10,8 @@ class Lingo:
     category: str
     language: str
     author: str
+    acronym: Optional[str] = None
+    abbreviation: Optional[str] = None
     tags: List[str] = field(default_factory=list)
 
     def asdict(self):

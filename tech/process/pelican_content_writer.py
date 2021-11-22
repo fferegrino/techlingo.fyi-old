@@ -26,6 +26,8 @@ class PelicanContentWriter(LingoProcessor):
             ("TAGS", ", ".join(processed.tags)),
             ("CATEGORY", processed.category),
             ("LANGUAGE", processed.language),
+            ("ACRONYM", processed.decorated_acronym),
+            ("ABBREVIATION", processed.abbr),
             ("SLUG", processed.slug),
             ("DATE", self.generated_date),
         ]
