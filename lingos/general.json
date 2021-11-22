@@ -121,12 +121,6 @@
     "author": "fferegrino"
   },
   {
-    "id": "scaffolding",
-    "term": "Scaffolding",
-    "text": "is a term used to refer to the code created by code generation tools that help us when creating a new app. For example, yeoman is a scaffolding generator tool.",
-    "author": "fferegrino"
-  },
-  {
     "id": "sprint",
     "term": "sprint",
     "text": "is a fixed interval of time, ranging between a week and a month, during which a part of a software product is built",
