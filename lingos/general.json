@@ -2,7 +2,7 @@
   {
     "id": "afk",
     "term": "AFK",
-    "text": "is an abbreviation for \"away from keyboard\", used to tell people that you will not be available for a period of time.",
+    "text": "used to tell people that you will not be available for a period of time.",
     "author": "fferegrino",
     "acronym": "Away From Keyboard"
   },
@@ -55,16 +55,44 @@
     "author": "fferegrino"
   },
   {
+    "id": "eod",
+    "term": "EOD",
+    "text": "used to set a deadline to deliver something: \"can you send me this by eod?\"",
+    "author": "fferegrino",
+    "acronym": "End Of Day"
+  },
+  {
+    "id": "eta",
+    "term": "ETA",
+    "text": "used to set a deadline for a deliverable: \"what is the ETA of this project?\"",
+    "author": "fferegrino",
+    "acronym": "Estimated Time of Arrival"
+  },
+  {
     "id": "fang",
     "term": "FANG",
     "text": "The term \"FANG\" refers to the name of these four popular American technology companies: Facebook, Amazon, Netflix, and Google",
     "author": "israteneda"
   },
   {
+    "id": "fte",
+    "term": "FTE",
+    "text": "used to refer to someone who is a permanent worker of a company",
+    "author": "fferegrino",
+    "acronym": "Full Time Employee"
+  },
+  {
     "id": "fyi",
     "term": "fyi",
     "text": "it is an acronym for \"for your information\"; used in email to tell the reader that a given email is ust informative and does not need to be replied to.",
     "author": "fferegrino"
+  },
+  {
+    "id": "imo",
+    "term": "IMO",
+    "text": "used to specify that what you are about to say is your opinion: \"imo, I find this too easy\"",
+    "author": "fferegrino",
+    "acronym": "In My Opinion"
   },
   {
     "id": "legacy",
@@ -137,6 +165,13 @@
     "term": "Vanilla",
     "text": "is a term used to refer to software in its purest form. For example, when someone says they did something in \"vanilla JavaScript\", it means they didn't use any framework.",
     "author": "fferegrino"
+  },
+  {
+    "id": "wfh",
+    "term": "WFH",
+    "text": "as opposed to working from the office",
+    "author": "fferegrino",
+    "acronym": "Work From Home"
   },
   {
     "id": "wget",

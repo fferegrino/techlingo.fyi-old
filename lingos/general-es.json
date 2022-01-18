@@ -54,16 +54,44 @@
     "author": "fferegrino"
   },
   {
+    "id": "eod",
+    "term": "EOD",
+    "text": "usado para especificar un tiempo límite para entregar algo, ejemplo: \"can you send me this by eod?\"",
+    "author": "fferegrino",
+    "acronym": "End Of Day"
+  },
+  {
+    "id": "eta",
+    "term": "ETA",
+    "text": "usado para establecer una fecha de entrega: \"what is the ETA of this project?\"",
+    "author": "fferegrino",
+    "acronym": "Estimated Time of Arrival"
+  },
+  {
     "id": "fang",
     "term": "FANG",
     "text": "El término \"FANG\" hace referencia al nombre de estas cuatro populares empresas tecnológicas estadounidenses: Facebook, Amazon, Netflix y Google",
     "author": "israteneda"
   },
   {
+    "id": "fte",
+    "term": "FTE",
+    "text": "usado para referirse a un empleado/empleada de tiempo completo en una compañía",
+    "author": "fferegrino",
+    "acronym": "Full Time Employee"
+  },
+  {
     "id": "fyi",
     "term": "fyi",
     "text": "es un acrónimo para \"para tu información\" en español; usado en emails para indicar que un correo es simplemente informativo y no requiere respuesta.",
     "author": "fferegrino"
+  },
+  {
+    "id": "imo",
+    "term": "IMO",
+    "text": "usado para expresar que lo que estás a punto de decir es una opinión, ejemplo: \"imo, I find this too easy\"",
+    "author": "fferegrino",
+    "acronym": "In My Opinion"
   },
   {
     "id": "legacy",
