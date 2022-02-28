@@ -1,22 +1,22 @@
 <html>
     <head>
-        <title>TITLE</title>
+        <title>{{ localised_title }}</title>
         <meta name="tags" content="TAGS" />
-        <meta name="initial" content="INITIAL" />
-        <meta name="id" content="ID" />
-        <meta name="language" content="LANGUAGE" />
-        <meta name="date" content="DATE" />
-        <meta name="modified" content="DATE" />
-        <meta name="category" content="CATEGORY" />
-        <meta name="non_localised_title" content="NON_LOCALISED_TITLE" />
-        <meta name="slug" content="SLUG" />
-        <meta name="author" content="AUTHOR" />
-        <meta name="acronym" content="ACRONYM" />
-        <meta name="abbreviation" content="ABBREVIATION" />
-        <meta name="author_url" content="AUTHOR_URL" />
+        <meta name="initial" content="{{ initial }}" />
+        <meta name="id" content="{{ identifier }}" />
+        <meta name="language" content="{{ language }}" />
+        <meta name="date" content="{{ generated_date }}" />
+        <meta name="modified" content="{{ generated_date }}" />
+        <meta name="category" content="{{ category }}" />
+        <meta name="non_localised_title" content="{{ original_title }}" />
+        <meta name="slug" content="{{ slug }}" />
+        <meta name="author" content="{{ author }}" />
+        <meta name="acronym" content="{{ decorated_acronym }}" />
+        <meta name="abbreviation" content="{{ abbr }}" />
+        <meta name="author_url" content="{{ author }}" />
         <meta name="summary" content="BODY" />
     </head>
     <body>
-        CONTENT
+        {{ content }}
     </body>
 </html>
