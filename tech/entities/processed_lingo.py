@@ -1,6 +1,6 @@
 from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 
 from tech.entities import languages
 from tech.entities.author import Author
@@ -21,6 +21,7 @@ class ProcessedLingo:
     language: str
     path: Path
     tags: List[str]
+    term_slug: str
 
     @property
     def initial(self) -> str:
@@ -42,8 +43,19 @@ class ProcessedLingo:
     def slug(self) -> str:
         return str(self.path)
 
+    @property
+    def alias(self) -> Optional[str]:
+        return None if self.language != "English" else self.term_slug
+
     @classmethod
-    def from_thing(cls, lingo: Lingo, author: Author, original_title: str, path: Path):
+    def from_thing(
+        cls,
+        lingo: Lingo,
+        author: Author,
+        original_title: str,
+        path: Path,
+        term_slug: str,
+    ):
         return cls(
             original_title=original_title,
             localised_title=lingo.term,
@@ -57,10 +69,13 @@ class ProcessedLingo:
             language=languages[lingo.language],
             path=path,
             tags=lingo.tags or [],
+            term_slug=term_slug,
         )
 
     def asdict(self):
         inner_dict = asdict(self)
         inner_dict.pop("path")
-        inner_dict.update({"initial": self.initial, "slug": self.slug})
+        inner_dict.update(
+            {"initial": self.initial, "alias": self.alias, "slug": self.slug}
+        )
         return inner_dict

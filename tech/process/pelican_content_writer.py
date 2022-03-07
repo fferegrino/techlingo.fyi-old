@@ -20,8 +20,11 @@ class PelicanContentWriter(LingoProcessor):
 
         output_path = self.generated_content_path / processed.path / "post.html"
         output_path.parent.mkdir(parents=True, exist_ok=True)
+        processed_dict = processed.asdict()
+        processed_dict["tags"] = ", ".join(processed_dict["tags"])
+
         end_content = template.render(
-            **processed.asdict(), generated_date=self.generated_date
+            **processed_dict, generated_date=self.generated_date
         )
         with open(output_path, "w") as writeable:
             writeable.write(end_content)

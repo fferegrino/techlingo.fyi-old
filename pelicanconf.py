@@ -51,3 +51,5 @@ ARTICLE_ORDER_BY = "reversed-title"
 from urllib.parse import quote, quote_plus
 
 JINJA_FILTERS = {"quote_plus": quote_plus, "just_quote": quote}
+
+PLUGINS = ["pelican_alias"]

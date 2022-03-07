@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>{{ localised_title }}</title>
-        <meta name="tags" content="TAGS" />
+        <meta name="tags" content="{{ tags }}" />
         <meta name="initial" content="{{ initial }}" />
         <meta name="id" content="{{ identifier }}" />
         <meta name="language" content="{{ language }}" />
@@ -10,6 +10,9 @@
         <meta name="category" content="{{ category }}" />
         <meta name="non_localised_title" content="{{ original_title }}" />
         <meta name="slug" content="{{ slug }}" />
+        {% if alias %}
+        <meta name="alias" content="{{ alias }}/index.html" />
+        {% endif %}
         <meta name="author" content="{{ author }}" />
         <meta name="acronym" content="{{ decorated_acronym }}" />
         <meta name="abbreviation" content="{{ abbr }}" />

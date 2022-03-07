@@ -24,7 +24,7 @@ def process_techlingos(writer: LingoProcessor):
             base_lingo_name = base_lingos[lingo.id]
 
             processed_lingo = ProcessedLingo.from_thing(
-                lingo, author, base_lingo_name, path
+                lingo, author, base_lingo_name, path, term_slug
             )
 
             content_writer.process(processed_lingo)
