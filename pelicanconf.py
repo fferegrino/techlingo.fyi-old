@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from pathlib import Path
 
+from tech.plugins import alias
+
 AUTHOR = "Antonio Feregrino"
 SITENAME = "TechLingo.fyi"
 SITEURL = ""
@@ -52,4 +54,4 @@ from urllib.parse import quote, quote_plus
 
 JINJA_FILTERS = {"quote_plus": quote_plus, "just_quote": quote}
 
-PLUGINS = ["pelican_alias"]
+PLUGINS = [alias]

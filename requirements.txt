@@ -3,6 +3,5 @@ black
 click
 isort
 pelican
-pelican-alias
 python-slugify
 tweepy

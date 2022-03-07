@@ -18,4 +18,4 @@ fmt:
 	PYTHONPATH=. python tech/format.py
 
 run: build
-	pelican --listen
+	PYTHONPATH=. pelican --listen
