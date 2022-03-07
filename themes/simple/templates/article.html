@@ -48,11 +48,6 @@
                 {% endif %}
 
                 <p class="col-8 col-md-12 fs-2">{{ article.content }}</p>
-                {% if article.author %}
-                <p class="col-md-10 fs-5">
-                    <a class="text-muted" href="{{ article.author_url }}">{{ article.author }}</a>
-                </p>
-                {% endif %}
 
                 {% if article.tags %}
                 <p class="col-md-10 fs-5">
