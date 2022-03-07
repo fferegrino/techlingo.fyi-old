@@ -87,11 +87,29 @@
     "author": "fferegrino"
   },
   {
+    "id": "i18n",
+    "term": "i18n",
+    "text": "Es un numerónimo que significa internacionalización, es el proceso de diseñar software que pueda adaptarse a diferentes idiomas y regiones",
+    "author": "fferegrino"
+  },
+  {
     "id": "imo",
     "term": "IMO",
     "text": "usado para expresar que lo que estás a punto de decir es una opinión, ejemplo: \"imo, I find this too easy\"",
     "author": "fferegrino",
     "acronym": "In My Opinion"
+  },
+  {
+    "id": "a11y",
+    "term": "l10n",
+    "text": "Es un numerónimo que significa accesibilidad, se refiere a la facilidad de uso de un sistema, sin importar las capacidades técnicas, físicas o cognitivas de sus usuarios",
+    "author": "fferegrino"
+  },
+  {
+    "id": "l10n",
+    "term": "l10n",
+    "text": "Es un numerónimo que significa localización, el proceso de adaptar software a una región o lenguaje espcíficos",
+    "author": "fferegrino"
   },
   {
     "id": "legacy",
