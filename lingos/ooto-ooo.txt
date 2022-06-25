@@ -1,0 +1,9 @@
+id = "ooto-ooo"
+term = "OOTO, OOO"
+text = "OOTO is an acronym that means “Out of the Office.”"
+author = "israteneda"
+
+[lang.es]
+term = "OOTO, OOO"
+text = "OOTO es un acrónimo que significa \"Fuera de la Oficina\"."
+author = "israteneda"

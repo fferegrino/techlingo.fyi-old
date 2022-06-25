@@ -1,0 +1,9 @@
+id = "brb"
+term = "BRB"
+text = "an acronym for \"be right back\", used to say you are leaving a conversation or meeting but will come back soon"
+author = "fferegrino"
+
+[lang.es]
+term = "BRB"
+text = "un acrónimo para \"be right back\", se usa cuando tienes que salir de una junta o conversación pero regresarás pronto"
+author = "fferegrino"

@@ -1,0 +1,9 @@
+id = "bau"
+term = "BAU"
+text = "an acronym for \"business as usual\", used to say that an event is happening as it was meant to happen; when something is wrong you could say \"this is not BAU\""
+author = "fferegrino"
+
+[lang.es]
+term = "BAU"
+text = "un acrónimo para \"business as usual\", se usa para decir que todo transcurre con normalidad y cuando algo va mal puedes decir \"esto no es BAU\""
+author = "fferegrino"

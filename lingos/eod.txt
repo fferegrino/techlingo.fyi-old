@@ -1,0 +1,11 @@
+id = "eod"
+term = "EOD"
+text = "used to set a deadline to deliver something: \"can you send me this by eod?\""
+author = "fferegrino"
+acronym = "End Of Day"
+
+[lang.es]
+term = "EOD"
+text = "usado para especificar un tiempo límite para entregar algo, ejemplo: \"can you send me this by eod?\""
+author = "fferegrino"
+acronym = "End Of Day"

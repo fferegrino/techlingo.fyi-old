@@ -1,0 +1,9 @@
+id = "backlog"
+term = "backlog"
+text = "when working with the agile methodology, we use the word \"backlog\" to refer to the list of pending work, this list is ideally ordered by priority"
+author = "fferegrino"
+
+[lang.es]
+term = "backlog"
+text = "en la metodología ágil, usamos la palabra \"backlog\" para referirnos a una lista de trabajo pendiente, usualmente ordenado por prioridad"
+author = "fferegrino"

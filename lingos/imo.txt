@@ -1,0 +1,11 @@
+id = "imo"
+term = "IMO"
+text = "used to specify that what you are about to say is your opinion: \"imo, I find this too easy\""
+author = "fferegrino"
+acronym = "In My Opinion"
+
+[lang.es]
+term = "IMO"
+text = "usado para expresar que lo que estás a punto de decir es una opinión, ejemplo: \"imo, I find this too easy\""
+author = "fferegrino"
+acronym = "In My Opinion"

@@ -1,0 +1,9 @@
+id = "pto"
+term = "PTO"
+text = "it is just an acronym for \"paid time off\""
+author = "fferegrino"
+
+[lang.es]
+term = "PTO"
+text = "es un acrónimo para \"paid time off\", algo que en español conocemos simplemente como vacaciones pagadas"
+author = "fferegrino"

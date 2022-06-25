@@ -1,0 +1,9 @@
+id = "lgtm"
+term = "lgtm"
+text = "\"Looks Good To Me\" is a phrase commonly used to indicate that a code integration can go ahead. For example, in a merge request."
+author = "fferegrino"
+
+[lang.es]
+term = "lgtm"
+text = "\"Looks Good To Me\" es una frase comunmente usada para indicar que una integración de código puede llevarse a cabo. Por ejemplo, a través un pull request en GitHub."
+author = "fferegrino"

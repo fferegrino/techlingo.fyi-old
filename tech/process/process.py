@@ -3,7 +3,7 @@ from pathlib import Path
 from slugify import slugify
 
 from tech.entities.processed_lingo import ProcessedLingo
-from tech.load import load_authors, load_base_lingos, load_lingos
+from tech.load import load_authors, load_lingos
 from tech.process.lingo_processor import LingoProcessor
 
 
@@ -14,10 +14,11 @@ def process_techlingos(writer: LingoProcessor):
     """
 
     authors = load_authors()
-    base_lingos = {ling.id: ling.term for ling in load_base_lingos()}
+    lingos = list(load_lingos())
+    base_lingos = {ling.id: ling.term for ling in lingos if ling.language == "en"}
 
     with writer as content_writer:
-        for lingo in load_lingos():
+        for lingo in lingos:
             term_slug = slugify(lingo.term)
             path = Path(lingo.category, term_slug, lingo.language)
             author = authors[lingo.author]

@@ -1,0 +1,9 @@
+id = "a11y"
+term = "l10n"
+text = "It is a numeronym that means accessibility, refers to the ease of use of software, regardless of disability type or severity of impairment of the user"
+author = "fferegrino"
+
+[lang.es]
+term = "l10n"
+text = "Es un numerónimo que significa accesibilidad, se refiere a la facilidad de uso de un sistema, sin importar las capacidades técnicas, físicas o cognitivas de sus usuarios"
+author = "fferegrino"

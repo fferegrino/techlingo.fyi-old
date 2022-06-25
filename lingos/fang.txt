@@ -1,0 +1,9 @@
+id = "fang"
+term = "FANG"
+text = "The term \"FANG\" refers to the name of these four popular American technology companies: Facebook, Amazon, Netflix, and Google"
+author = "israteneda"
+
+[lang.es]
+term = "FANG"
+text = "El término \"FANG\" hace referencia al nombre de estas cuatro populares empresas tecnológicas estadounidenses: Facebook, Amazon, Netflix y Google"
+author = "israteneda"

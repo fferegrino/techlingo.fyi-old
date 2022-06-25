@@ -19,7 +19,7 @@ A partir de aquí puedes hacer dos cosas:
 Ya debes tener todo listo para modificar el código fuente.
 
 ### Agregar nuevos términos  
-Para hacer esto, debes modificar los archivos dentro de la carpeta `lingos`, una vez que hayas editado estos archivos, ejecuta `make fmt` antes de subir tus cambios.
+Para hacer esto, debes modificar o agregar los archivos *.txt* dentro de la carpeta *lingos*.
 
 ### Ejecutar en un servidor local  
 Ejecuta `make run` y visita `http://localhost:8000`.

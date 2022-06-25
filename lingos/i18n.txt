@@ -1,0 +1,9 @@
+id = "i18n"
+term = "i18n"
+text = "It is a numeronym that means internationalization, the process of creating software that can be adapted to different languages or regions"
+author = "fferegrino"
+
+[lang.es]
+term = "i18n"
+text = "Es un numerónimo que significa internacionalización, es el proceso de diseñar software que pueda adaptarse a diferentes idiomas y regiones"
+author = "fferegrino"

@@ -1,0 +1,9 @@
+id = "legacy"
+term = "Legacy"
+text = "A system, technology or application that is considered obsolete or old but is still used within an organisation"
+author = "fferegrino"
+
+[lang.es]
+term = "Legacy"
+text = "Sistema, tecnología o aplicación antiguo o desactualizado que se sigue utilizando dentro de una organización."
+author = "kinduff"
