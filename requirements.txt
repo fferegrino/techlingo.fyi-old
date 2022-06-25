@@ -5,3 +5,5 @@ isort
 pelican
 python-slugify
 tweepy
+tomli
+tomli-w
