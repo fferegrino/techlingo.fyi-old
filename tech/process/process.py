@@ -3,7 +3,7 @@ from pathlib import Path
 from slugify import slugify
 
 from tech.entities.processed_lingo import ProcessedLingo
-from tech.load import load_authors, load_base_lingos, load_lingos
+from tech.load import load_authors, load_lingos
 from tech.process.lingo_processor import LingoProcessor
 
 
