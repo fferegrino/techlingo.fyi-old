@@ -1,0 +1,9 @@
+id = "tldr"
+term = "tl;dr"
+text = "an acronym for \"too long; didn't read\" commonly used to give a short summary of a larger piece of text"
+author = "fernandzad"
+
+[lang.es]
+term = "tl;dr"
+text = "un acrónimo para \"muy largo; no lo leí\" usado comúnmente para especificar un resumen de un texto más largo"
+author = "fferegrino"

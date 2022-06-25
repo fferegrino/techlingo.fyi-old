@@ -1,0 +1,12 @@
+id = "scaffolding"
+term = "Scaffolding"
+text = "is a term used to refer to the code created by code generation tools that help us when creating a new app. For example, yeoman is a scaffolding generator tool."
+author = "fferegrino"
+
+[lang.es]
+term = "Scaffolding"
+text = "es un término usado para referirse al código inicial creado por una herramienta. Ejemplo:  yeoman es una herramienta de \"scaffolding\"."
+author = "fferegrino"
+tags = [
+    "web",
+]

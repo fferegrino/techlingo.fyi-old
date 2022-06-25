@@ -1,0 +1,11 @@
+id = "wfh"
+term = "WFH"
+text = "as opposed to working from the office"
+author = "fferegrino"
+acronym = "Work From Home"
+
+[lang.es]
+term = "WFH"
+text = "trabajo desde casa"
+author = "fferegrino"
+acronym = "Work From Home"

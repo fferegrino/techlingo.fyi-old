@@ -1,0 +1,9 @@
+id = "sprint"
+term = "sprint"
+text = "is a fixed interval of time, ranging between a week and a month, during which a part of a software product is built"
+author = "fferegrino"
+
+[lang.es]
+term = "sprint"
+text = "es un intervalo fijo de tiempo, de entre una semana y un mes, durante el cual se cumple con crear una parte de un producto de software"
+author = "fferegrino"

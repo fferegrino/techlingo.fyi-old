@@ -1,0 +1,9 @@
+id = "cya"
+term = "CYA"
+text = "an acronym for \"cover your ass\", is an activity done by an individual to protect themselves from subsequent criticism, legal penalties, or other repercussions"
+author = "fferegrino"
+
+[lang.es]
+term = "CYA"
+text = "un acrónimo de \"cover your ass\", que es una actividad llevada a cabo por alguien para protegerse de las repercusiones de sus acciones"
+author = "fferegrino"

@@ -1,0 +1,9 @@
+id = "pull-or-merge"
+term = "Pull or Merge?"
+text = "When talking about platforms like GitHub or GitLab, both Pull Request and Merge Request refer to the same action: a request to integrate code from one branch o another."
+author = "fferegrino"
+
+[lang.es]
+term = "¿Pull o Merge?"
+text = "Hablando de plataformas como GitHub o GitLab, tanto Pull Request como Merge Request se refieren a la misma acción: una petición de integrar el código de una rama a otra."
+author = "fferegrino"

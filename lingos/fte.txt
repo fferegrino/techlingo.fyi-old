@@ -1,0 +1,11 @@
+id = "fte"
+term = "FTE"
+text = "used to refer to someone who is a permanent worker of a company"
+author = "fferegrino"
+acronym = "Full Time Employee"
+
+[lang.es]
+term = "FTE"
+text = "usado para referirse a un empleado/empleada de tiempo completo en una compañía"
+author = "fferegrino"
+acronym = "Full Time Employee"

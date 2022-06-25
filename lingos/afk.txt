@@ -1,0 +1,10 @@
+id = "afk"
+term = "AFK"
+text = "used to tell people that you will not be available for a period of time."
+author = "fferegrino"
+acronym = "Away From Keyboard"
+
+[lang.es]
+term = "AFK"
+text = "una abreviación para \"away from keyboard\" (\"lejos del teclado\"), usada para hacerle saber a la gente que no vas a estar disponible durante un tiempo."
+author = "fferegrino"

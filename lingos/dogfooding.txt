@@ -1,0 +1,9 @@
+id = "dogfooding"
+term = "Dogfooding"
+text = "a term used when a company uses the same products they produce; Microsoft employees using Word is an example of \"dogfooding\""
+author = "fferegrino"
+
+[lang.es]
+term = "Dogfooding"
+text = "es un término que se usa para indicar que una empresa usa los mismos productos que crea; los empleados de Microsoft usando Word es un ejemplo de \"dogfooding\""
+author = "fferegrino"

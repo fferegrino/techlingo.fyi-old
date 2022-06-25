@@ -1,0 +1,9 @@
+id = "lossy"
+term = "Lossy"
+text = "this is a word used to describe compression algorithms where information is discarded in order to reduce the size of said information"
+author = "fferegrino"
+
+[lang.es]
+term = "Lossy"
+text = "esta palabra es usada para describir algoritmos de compresión que descartan partes de esta con el fin de comprimirla"
+author = "fferegrino"

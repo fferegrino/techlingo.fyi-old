@@ -1,0 +1,15 @@
+[fferegrino]
+display_name = "Antonio Feregrino"
+main_link = "https://twitter.com/io_exception"
+
+[fernandzad]
+display_name = "Adrián Fernandez"
+main_link = "https://twitter.com/fernandzad"
+
+[israteneda]
+display_name = "Israel Teneda"
+main_link = "https://twitter.com/israteneda"
+
+[kinduff]
+display_name = "Alejandro AR"
+main_link = "https://github.com/kinduff"

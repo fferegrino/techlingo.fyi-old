@@ -1,0 +1,9 @@
+id = "fyi"
+term = "fyi"
+text = "it is an acronym for \"for your information\"; used in email to tell the reader that a given email is ust informative and does not need to be replied to."
+author = "fferegrino"
+
+[lang.es]
+term = "fyi"
+text = "es un acrónimo para \"para tu información\" en español; usado en emails para indicar que un correo es simplemente informativo y no requiere respuesta."
+author = "fferegrino"

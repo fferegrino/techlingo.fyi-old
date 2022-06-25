@@ -1,0 +1,9 @@
+id = "ootb"
+term = "OOTB"
+text = "\"Out-Of-The-Box\" is a phrase commonly used to describe the default features included in a library or language."
+author = "fferegrino"
+
+[lang.es]
+term = "OOTB"
+text = "\"Out-Of-The-Box\" es una frase que se suele utilizar para funcionalidades incluídas por default en una biblioteca o lenguaje."
+author = "fferegrino"

@@ -1,0 +1,9 @@
+id = "l10n"
+term = "l10n"
+text = "It is a numeronym that means localization, the process of adapting internationalized software for a specific region or language"
+author = "fferegrino"
+
+[lang.es]
+term = "l10n"
+text = "Es un numerónimo que significa localización, el proceso de adaptar software a una región o lenguaje espcíficos"
+author = "fferegrino"

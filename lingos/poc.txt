@@ -1,0 +1,9 @@
+id = "poc"
+term = "POC"
+text = "an acronym for \"proof of concept\", used to refer to an experiment that aims to demonstrate that a design, technology or business proposal is feasible"
+author = "fferegrino"
+
+[lang.es]
+term = "POC"
+text = "un acrónimo para \"proof of concept\", usado para referirse a un experimento que busca demostrar que un diseño, tecnología o idea es factible"
+author = "fferegrino"

@@ -1,0 +1,11 @@
+id = "eta"
+term = "ETA"
+text = "used to set a deadline for a deliverable: \"what is the ETA of this project?\""
+author = "fferegrino"
+acronym = "Estimated Time of Arrival"
+
+[lang.es]
+term = "ETA"
+text = "usado para establecer una fecha de entrega: \"what is the ETA of this project?\""
+author = "fferegrino"
+acronym = "Estimated Time of Arrival"

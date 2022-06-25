@@ -1,0 +1,9 @@
+id = "wget"
+term = "wget"
+text = "it is a command line application that retrieves data from web servers, it supports downloading from FTP, HTTP and HTTPS"
+author = "fferegrino"
+
+[lang.es]
+term = "wget"
+text = "es una herramienta de consola que podemos usar para descargar información desde servidores web usando los protocolos FTP, HTTP o HTTPS"
+author = "fferegrino"
