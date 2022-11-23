@@ -1,0 +1,9 @@
+id = "jk"
+term = "jk"
+text = "It is an acronym for "just kidding", used in written form to imply that something you said was a joke and not to be taken seriously"
+author = "fferegrino"
+
+[lang.es]
+term = "jk"
+text = "es un acrónimo para \"estoy bromeando\" en español, usado en un chat para decir que lo que acabas de decir no es en serio"
+author = "fferegrino"
